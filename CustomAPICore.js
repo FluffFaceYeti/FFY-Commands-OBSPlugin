@@ -2214,7 +2214,7 @@ Object.keys(randomGames).forEach((game) => {
 });
 
 // ===========================================
-// 🎭 JOKES LIBRARY WITH EMOJIS
+// 🎭 JOKES LIBRARY
 // ===========================================
 
 const jokes = {
@@ -3605,26 +3605,6 @@ sails: [
     ],
     high: ["An absolute legend 😳", "That’s... gravitationally impressive 🌌"],
   },
-  gangbang: {
-    low: [
-      "That was more of a polite group hug. 🤗",
-      "You tried... but it felt like a networking event. 💼",
-      "The squad showed up, but nobody committed. 😅",
-      "That’s the quietest gangbang ever recorded. 📉",
-    ],
-    medium: [
-      "A respectable turnout — messy, but organized. 🫡",
-      "The vibes were chaotic, but everyone left smiling. 😏",
-      "You brought some energy to the room! 🔥",
-      "Things escalated... tastefully. 🎭",
-    ],
-    high: [
-      "That was pure, unfiltered madness. 💥 The walls are still shaking.",
-      "A legendary performance — historians will study this one. 📜",
-      "An all-out festival of chaos and passion. 🎉",
-      "Chat may never recover from that display of teamwork. 💦",
-    ],
-  },
 };
 
 // ===========================================
@@ -3638,7 +3618,7 @@ miniGames.compat = (senderRaw, userRaw) => {
   const targetDisplay = formatDisplayName(userRaw);
 
   if (!userRaw || sender === target) {
-    return `${senderDisplay}, you can’t test compatibility with yourself 😅`;
+    return `${senderDisplay}, you can’t test compatibility with yourself`;
   }
 
   const today = new Date().toLocaleDateString("en-GB");
@@ -3652,7 +3632,7 @@ miniGames.compat = (senderRaw, userRaw) => {
   } else if (value >= 60) {
     message = `🔥 Sparks fly! ${senderDisplay} & ${targetDisplay} are ${value}% in sync.`;
   } else if (value >= 40) {
-    message = `😬 ${senderDisplay} and ${targetDisplay} are only ${value}% compatible… could work with effort. 😅`;
+    message = `😬 ${senderDisplay} and ${targetDisplay} are only ${value}% compatible… could work with effort.`;
   } else {
     message = `💔 ${senderDisplay} and ${targetDisplay} share ${value}% chemistry — better as friends.`;
   }
@@ -3671,7 +3651,7 @@ miniGames.bootybattle = (senderRaw, userRaw) => {
   const targetDisplay = formatDisplayName(userRaw);
 
   if (!userRaw || sender === target) {
-    return `🍑 ${senderDisplay} tried to compare booties with themselves... confidence or madness? 🤔`;
+    return `🍑 ${senderDisplay} tried to compare booties with themselves... confidence or madness?`;
   }
 
   const today = new Date().toLocaleDateString("en-GB");
