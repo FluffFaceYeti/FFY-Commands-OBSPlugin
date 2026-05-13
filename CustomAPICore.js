@@ -4947,24 +4947,6 @@ if (type === "ping") {
       let joke = jokesForGroup[index] || "";
 
       // ===========================================
-      // 🎯 DO-NOT-TRACK CUSTOM MESSAGE FORMAT
-      // ===========================================
-
-      if (doNotTrack.includes(type)) {
-        const actionWord = getActionWord(type) || type;
-
-        // interaction-style (requires target)
-        if (targetDisplay) {
-          return res.send(
-            `${senderDisplay} ${actionWord} ${targetDisplay} with a "${chosen}" — ${joke}`,
-          );
-        }
-
-        // fallback: no target (solo commands)
-        return res.send(`${senderDisplay} used a "${chosen}" — ${joke}`);
-      }
-
-      // ===========================================
       // 🌟 ASPECT OF THE DAY — TRACKED TYPES ONLY
       // ===========================================
 
