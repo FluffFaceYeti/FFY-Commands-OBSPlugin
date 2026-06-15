@@ -1,19 +1,27 @@
-const customitem = {
+const customItems = {
   customitem: {
     list: [
-   "items1",
-   "item2",
+      "item1",
+      "item2",
     ],
     label: "today your customitem is",
   },
-};
-const customitem2 = {
+
   customitem2: {
     list: [
-    "items1",
-    "item2",
+      "item1",
+      "item2",
     ],
     label: "today your customitem2 is",
   },
+
+  customitem3: {
+    list: [
+      "item1",
+      "item2",
+    ],
+    label: "today your customitem3 is",
+  },
 };
-export { customitem, customitem2};
+
+export { customItems };
