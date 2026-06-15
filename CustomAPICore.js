@@ -42,7 +42,7 @@ import wizardvibes from "./data/list-commands/wizard.js";
 import wizarditems from "./data/list-commands/wizarditems.js";
 import nnm from "./data/list-commands/nmmchallenges.js";
 import SINGLE_VALUE_TYPES from "./data/helpers/singlelistitems.js";
-import { customItems } from "./data/list-commands/customlistcommands.js";
+import customItems from "./data/list-commands/customlistcommands.js";
 
 //custom commands and other helper functions
 import doNotTrack from "./data/helpers/donottracklist.js";
