@@ -24,4 +24,4 @@ const customItems = {
   },
 };
 
-export { customItems };
+export default customItems;
