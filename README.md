@@ -117,8 +117,8 @@ While this file is free to use:
 - The free version does that, but there is a way to trick it!
 - Create a StreamElements Timer 
 - Have the timer run every 10 minutes when you are live 
-- have the response be $(urlfetch https://yourusername.onrender.com/ping)
-- So if your OnRender service is called waffles, it would be $(urlfetch https://waffles.onrender.com/ping)
+- have the response be ${customapi.https://yourusername.onrender.com/?sender=${sender}&type=ping}
+- So if your OnRender service is called waffles, it would be ${customapi.https://waffles.onrender.com/?sender=${sender}&type=ping}
 - Set the chat lines to zero
 - StreamElements will now ping your service every 10 minutes. Stopping the service from shutting down while you are live. 
 
@@ -178,36 +178,6 @@ ${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&typ
 ```
 ```yaml
 ${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&type=spank&random&jokes=false&consent=true} - "&type=" "&random" "&jokes=false" "&consent=true"
-```
-----------------------------------------------------
-🌟 GIVEAWAYS
-----------------------------------------------------
-
-We have added a small Giveaway function within the code, As the code is pretty long I will make it very simple to follow 
-
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveaway} - Enters someone into the giveaway 
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawayroll} - Rolls the giveaway - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawayreroll} - Re Rolls the giveaway - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawaylist} - Shows the entries - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawaycount} - Shows the entries Count - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&user=${user}&type=giveawayremove} - Remove someone from the giveaway - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawayclear} - Clears The Giveaway - Suggested MOD only!
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=giveawaywinners} - Shows The Winners - Suggested MOD only!
 ```
 ----------------------------------------------------
 Rock Paper Scissors
