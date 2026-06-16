@@ -5,6 +5,8 @@ const customItems = {
       "item2",
     ],
     label: "today your customitem is",
+    template: (sender, chosen, joke) =>
+      `${sender}, today your customitem is ${chosen}! ${joke}`,
   },
 
   customitem2: {
@@ -13,6 +15,8 @@ const customItems = {
       "item2",
     ],
     label: "today your customitem2 is",
+    template: (sender, chosen, joke) =>
+      `${sender}, today your customitem2 is ${chosen}! ${joke}`,
   },
 
   customitem3: {
@@ -21,6 +25,8 @@ const customItems = {
       "item2",
     ],
     label: "today your customitem3 is",
+    template: (sender, chosen, joke) =>
+      `${sender}, today your customitem3 is ${chosen}! ${joke}`,
   },
 };
 
