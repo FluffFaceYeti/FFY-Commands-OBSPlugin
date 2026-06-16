@@ -9,6 +9,8 @@ const auraitems = {
       " Moon Charm",
     ],
     label: "aura accessory",
+    template: (sender, chosen, joke) =>
+  `${sender}, your aura accessory today is ${chosen}! ${joke}`,
   },
 };
 export default auraitems;

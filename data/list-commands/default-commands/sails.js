@@ -134,6 +134,8 @@ const sails = {
       "Sunshine Parrot Sails",
     ],
     label: "today your ship is repping the",
+    template: (sender, chosen, joke) =>
+  `${sender}, today your ship is repping the ${chosen}! ${joke}`,
   },
 };
 export default sails;

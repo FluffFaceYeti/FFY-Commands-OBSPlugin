@@ -10,6 +10,8 @@ const pirateoutfits = {
       " Peg Leg",
     ],
     label: "pirate accessory",
+    template: (sender, chosen, joke) =>
+  `${sender}, your pirate accessory today is ${chosen}! ${joke}`,
   },
 };
 export default pirateoutfits;

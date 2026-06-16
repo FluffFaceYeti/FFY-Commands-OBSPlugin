@@ -93,6 +93,8 @@ const spells = {
       "Wingardium Leviosa",
     ],
     label: "the spell cast is",
+    template: (sender, chosen, joke) =>
+  `${sender}, the spell cast today is ${chosen}! ${joke}`,
   },
 };
 export default spells;

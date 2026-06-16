@@ -18,6 +18,8 @@ const drink = {
       " Melon Soda",
     ],
     label: "drink of the day",
+    template: (sender, chosen, joke) =>
+  `${sender}, your drink of the day is ${chosen}! ${joke}`,
   },
 };
 export default drink;

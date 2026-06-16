@@ -13,6 +13,8 @@ const auravibes = {
       " Sparkling",
     ],
     label: "aura vibe",
+    template: (sender, chosen, joke) =>
+  `${sender}, your aura vibe today is ${chosen}! ${joke}`,
   },
 };
 export default auravibes;

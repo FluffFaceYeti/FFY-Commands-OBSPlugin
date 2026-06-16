@@ -10,6 +10,8 @@ const wizardvibes = {
       " Warlock",
     ],
     label: "wizard vibe",
+    template: (sender, chosen, joke) =>
+  `${sender}, your wizard vibe today is ${chosen}! ${joke}`,
   },
 };
 export default wizardvibes;

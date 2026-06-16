@@ -64,6 +64,8 @@ const fish = {
       " Twighlight Stormfish",
     ],
     label: "Fish",
+    template: (sender, chosen, joke) =>
+  `${sender}, your fish today is ${chosen}! ${joke}`,
   },
 };
 export default fish;

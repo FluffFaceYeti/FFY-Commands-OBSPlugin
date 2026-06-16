@@ -10,6 +10,8 @@ const powers = {
       " Cosmic Awareness",
     ],
     label: "power/ability",
+    template: (sender, chosen, joke) =>
+  `${sender}, your power today is ${chosen}! ${joke}`,
   },
 };
 export default powers;

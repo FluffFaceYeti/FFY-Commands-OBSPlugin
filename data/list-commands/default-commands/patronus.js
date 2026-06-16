@@ -109,6 +109,8 @@ const patronus = {
       "Non-Corporeal Patronus",
     ],
     label: "Patronus takes the form of a",
+    template: (sender, chosen, joke) =>
+  `${sender}, your Patronus takes the form of a ${chosen}! ${joke}`,
   },
 };
 export default patronus;

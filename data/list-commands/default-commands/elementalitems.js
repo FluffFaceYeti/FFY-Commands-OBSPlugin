@@ -10,6 +10,8 @@ const elementalitems = {
       " Void Charm",
     ],
     label: "elemental item",
+    template: (sender, chosen, joke) =>
+  `${sender}, your elemental item today is ${chosen}! ${joke}`,
   },
 };
 export default elementalitems;

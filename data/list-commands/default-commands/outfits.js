@@ -13,6 +13,8 @@ const outfits = {
       " Martial",
     ],
     label: "outfit/style",
+    template: (sender, chosen, joke) =>
+  `${sender}, your outfit today is ${chosen}! ${joke}`,
   },
 };
 export default outfits;

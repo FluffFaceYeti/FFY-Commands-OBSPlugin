@@ -10,6 +10,8 @@ const piratevibes = {
       " Sea Monster Tamer",
     ],
     label: "pirate vibe",
+    template: (sender, chosen, joke) =>
+  `${sender}, your pirate vibe today is ${chosen}! ${joke}`,
   },
 };
 export default piratevibes;
