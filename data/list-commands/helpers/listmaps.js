@@ -16,8 +16,7 @@ import sails from "../sails.js";
 import spells from "../spells.js";
 import wizardvibes from "../wizard.js";
 import wizarditems from "../wizarditems.js";
-import nnm from "../nmmchallenges.js";
-import nnm from "../customlistcommands.js";
+import customItems from "../customlistcommands.js";
 
     const listGroups = [
       { map: colors, jokesKey: "colors", category: "colors" },
