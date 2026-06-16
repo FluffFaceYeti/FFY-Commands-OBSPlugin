@@ -39,7 +39,7 @@ const stats = {
       `${sender}, Your boob size today is ${value}! ${joke}`,
   },
   daddy: {
-    min: 0,
+    min: 100,
     max: 100,
     levels: [30, 70],
     unit: "%",
