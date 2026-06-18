@@ -1,5 +1,5 @@
 ----------------------------------------------------
-StreamElements Formatted Links - Stats 
+Nighbot Formatted Links - Stats 
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=beard)
