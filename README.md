@@ -112,7 +112,7 @@ While this file is free to use:
 HELPERS
 ----------------------------------------------------
 
-###a HUGE thank you to the people who have been testing and offering input along the way!
+### a HUGE thank you to the people who have been testing and offering input along the way!
 
 - https://www.twitch.tv/bluegoo26 - Main tester for this project, thank you for breaking everything and finding all the bugs I could not see! 
 
