@@ -1,5 +1,5 @@
 # specialusers.js
-
+## found in data/helpers
 Creates custom responses for specific users.
 
 ## Single User
