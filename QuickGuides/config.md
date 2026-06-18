@@ -15,5 +15,5 @@ Your Twitch channel name.
 
 Example:
 ```js
-const CHANNEL_NAME = "flufffaceyeti";
+const CHANNEL_NAME = "yourchannelname";
 ```
