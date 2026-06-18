@@ -27,19 +27,19 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=princess)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=goodgirl)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Love 
+Nighbot Formatted Links - Love 
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=flame)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Hate 
+Nighbot Formatted Links - Hate 
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=flamehate)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Personality
+Nighbot Formatted Links - Personality
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=clowning)
@@ -85,7 +85,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=charisma)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=luck)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Gym
+Nighbot Formatted Links - Gym
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=lift)
@@ -103,13 +103,13 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=row)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=stretch)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Hold
+Nighbot Formatted Links - Hold
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=gold)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Carry
+Nighbot Formatted Links - Carry
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=weight)
@@ -117,7 +117,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=weight)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=items)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Actions
+Nighbot Formatted Links - Actions
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=squeeze)
@@ -153,7 +153,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=uppercut)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=grapple)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Emotions & Feelings
+Nighbot Formatted Links - Emotions & Feelings
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=happiness)
@@ -191,7 +191,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=hope)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=love_hate_balance)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Skills
+Nighbot Formatted Links - Skills
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=precision)
@@ -221,7 +221,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=strength)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=adaptability)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Pirate Skills
+Nighbot Formatted Links - Pirate Skills
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=pirate)
@@ -249,85 +249,85 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=intimidation)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=parley)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Animal Vibes
+Nighbot Formatted Links - Animal Vibes
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=animal)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Drink Vibes
+Nighbot Formatted Links - Drink Vibes
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=drink)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Colors
+Nighbot Formatted Links - Colors
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=colors)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Aura Vibes
+Nighbot Formatted Links - Aura Vibes
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=auravibes)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Pirate Vibes
+Nighbot Formatted Links - Pirate Vibes
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=piratevibes)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Wizard Vibes
+Nighbot Formatted Links - Wizard Vibes
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=wizardvibes)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Outfits / Styles
+Nighbot Formatted Links - Outfits / Styles
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=outfits)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Elements
+Nighbot Formatted Links - Elements
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=elements)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Powers / Abilities
+Nighbot Formatted Links - Powers / Abilities
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=powers)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Pirate Accessories
+Nighbot Formatted Links - Pirate Accessories
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=pirateoutfits)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Wizard Accessories
+Nighbot Formatted Links - Wizard Accessories
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=wizarditems)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Elemental Accessories
+Nighbot Formatted Links - Elemental Accessories
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=elementalitems)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Aura Accessories
+Nighbot Formatted Links - Aura Accessories
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=auraitems)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Interactions
+Nighbot Formatted Links - Interactions
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=bonk)
@@ -351,7 +351,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=throwshoe)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Mini Games
+Nighbot Formatted Links - Mini Games
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=rps)
@@ -381,7 +381,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&user=$(touser)&type=ppduel)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Mini Games - Random 
+Nighbot Formatted Links - Mini Games - Random 
 ----------------------------------------------------
 
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=d20)
@@ -391,7 +391,7 @@ $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=d12)
 $(urlfetch https://yourusername.onrender.com?sender=$(user)&type=randomcoinflip)
 
 ----------------------------------------------------
-StreamElements Formatted Links - Seasonal
+Nighbot Formatted Links - Seasonal
 ----------------------------------------------------
 
 ${customapi.https://yourusername.onrender.com?sender=${sender}&type=santa}
