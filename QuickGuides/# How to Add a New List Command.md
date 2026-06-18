@@ -118,7 +118,7 @@ This creates:
 ---
 
 ## Step 4 - Add Jokes (Optional)
-## located in data/helpers/jokes.js
+## located in data/helpers
 In `jokes.js`:
 
 ```js
@@ -134,7 +134,7 @@ If you don't want jokes, leave the array empty.
 ---
 
 ## Step 5 - Add an "Of The Day" Winner (Optional)
-
+## located in data/helpers
 Open:
 
 ```text
