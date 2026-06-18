@@ -1,5 +1,5 @@
 # specialinteractions.js
-
+## found in data/helpers
 Creates custom interaction outcomes between specific users.
 
 ## Single Interaction
@@ -13,8 +13,7 @@ const specialInteractions = {
         message: "@{sender} gave @{target} the ultimate hug!"
       }
     }
-  }
-};
+  },
 ```
 
 ## Multiple Interactions
@@ -36,8 +35,7 @@ const specialInteractions = {
         message: "@{sender} bonked @{target} into another dimension!"
       }
     }
-  }
-};
+  },
 ```
 
 ## Multiple User Pairs
@@ -59,6 +57,5 @@ const specialInteractions = {
         message: "@{sender} bonks @{target}!"
       }
     }
-  }
-};
+  },
 ```
