@@ -1,5 +1,5 @@
 # config.js
-
+## found in data/helpers
 Controls basic bot settings.
 
 ## TIMEZONE
