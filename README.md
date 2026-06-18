@@ -71,22 +71,19 @@ Render will automatically:
 3. UPDATING YOUR CODE
 ----------------------------------------------------
 
-Need to make changes? Easy!
-
-1. Edit your files locally.
-2. Commit and push to GitHub.
-3. Render will automatically redeploy the new version.
-
-You can also manually redeploy anytime from your Render dashboard.
+for guides of most if not all aspects of the code please open the "Helpers" folder wich is located within the "data" folder
 
 ----------------------------------------------------
-4. IMPORTANT NOTE ABOUT FREE HOSTING
+4. IMPORTANT NOTE ABOUT FREE HOSTING "OnRender shuts down after 15 minutes of no activity?"
 ----------------------------------------------------
 
-Render’s free tier is awesome for testing — but here’s what you should know:
-
-- The service goes to sleep after 15 minutes of inactivity.
-- When it wakes up (the first command after a break), it takes about 50 seconds to restart.
+- The free version does that, but there is a way to trick it!
+- Create a StreamElements Timer 
+- Have the timer run every 10 minutes when you are live 
+- have the response be ${customapi.https://yourusername.onrender.com/?sender=${sender}&type=ping}
+- So if your OnRender service is called waffles, it would be ${customapi.https://waffles.onrender.com/?sender=${sender}&type=ping}
+- Set the chat lines to zero
+- StreamElements will now ping your service every 10 minutes. Stopping the service from shutting down while you are live. 
 - For full 24/7 uptime and instant responses, consider upgrading to the $7/month plan.
 
 ----------------------------------------------------
@@ -112,86 +109,23 @@ While this file is free to use:
 - https://streamelements.com/FluffFaceYeti/tip
 
 ----------------------------------------------------
-5. OnRender shuts down after 15 minutes of no activity?
-----------------------------------------------------
-- The free version does that, but there is a way to trick it!
-- Create a StreamElements Timer 
-- Have the timer run every 10 minutes when you are live 
-- have the response be ${customapi.https://yourusername.onrender.com/?sender=${sender}&type=ping}
-- So if your OnRender service is called waffles, it would be ${customapi.https://waffles.onrender.com/?sender=${sender}&type=ping}
-- Set the chat lines to zero
-- StreamElements will now ping your service every 10 minutes. Stopping the service from shutting down while you are live. 
-
-----------------------------------------------------
-6. Adding your commands to your chat - Personal stats
+HELPERS
 ----------------------------------------------------
 
-Link Variables 
+- a HUGE thank you to the people who have been testing and offering input along the way!
 
-```yaml
-&type=
-```
-Sets the command type such as PP, BB or Beard.
+- https://www.twitch.tv/bluegoo26 - Main tester for this project, thank you for breaking everything and finding all the bugs I could not see! 
 
-```yaml
-&ranmdom
-```
-Decides if the reply is a stored daily value or if it is a random reply each time the command is used.
+- https://www.twitch.tv/t1tcho - The "Ideas lady", thank you for always encouraging me to test my creative limits with these "nerdy projects" more coming soon, if you know you know!
 
-```yaml
-&jokes=true
-```
-Enables jokes.
+- https://www.twitch.tv/epiickgiirl - "Can you add walk ons" well peach! we sure can and we did!
 
-```yaml
-&consent=true
-```
-An optional consent system for interactions, Once consent is granted it is stored for 24 hours.
+- https://www.twitch.tv/vexx1e - Another amazing helper that offered her "Raccoon Ideas" as well as snacks she did not steal from someones trash can.... right?!?!
 
-----------------------------------------------------
-🌟 Link example with variables
-----------------------------------------------------
+- https://www.twitch.tv/thegalaxygirllive - MAMA, the helper that gave us the idea of making the UI boxes fully editible so users can simply change commands easily!
 
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=beard} - "&type="
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=beard&random} - "&type=" "&random"
-```
-```yaml
-${customapi.https://yourusername.onrender.com?sender=${sender}&type=beard&random&jokes=false} - "&type=" "&random" "&jokes=false"
-```
-----------------------------------------------------
-🌟 Targeted Link example with variables
-----------------------------------------------------
+Seriously, Thank you dorks for helping us make this cool little idea into a fun project! 
 
-These links are slightly different as they include a target
-
-```yaml
-${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&type=spank} - "&type="
-```
-```yaml
-${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&type=spank&random} - "&type=" "&random"
-```
-```yaml
-${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&type=spank&random&jokes=false} - "&type=" "&random" "&jokes=false"
-```
-```yaml
-${customapi.https://yourusername.onrender.com/?sender=${sender}&user=${user}&type=spank&random&jokes=false&consent=true} - "&type=" "&random" "&jokes=false" "&consent=true"
-```
-----------------------------------------------------
-Rock Paper Scissors
-----------------------------------------------------
-
-Note: Jokes for these blocks are pre-implemented, so the link does not need to contain &jokes=true
-```yaml
-rps: 
-${customapi.https://yourusername.onrender.com?sender=${sender}&user=${user}&type=rps}
-```
-```yaml
-PP Duel:
-${customapi.https://yourusername.onrender.com?sender=${sender}&user=${user}&type=ppduel}
-```
 ----------------------------------------------------
 TIME ZONE EXAMPLES
 ----------------------------------------------------
