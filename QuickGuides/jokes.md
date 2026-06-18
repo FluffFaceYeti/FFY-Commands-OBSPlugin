@@ -1,5 +1,5 @@
 # jokes.js
-
+## found in data/helpers
 This file contains all joke messages used by commands.
 
 ## Numeric Commands
