@@ -28,8 +28,8 @@ Example:
 
 | Command | Username    | Result                                  |
 | ------- | ----------- | --------------------------------------- |
-| pickle  | username   | Only BlueGoo26 can trigger the source   |
-| cry     | username  | Only epiickgiirl can trigger the source |
+| pickle  | username   | Only username can trigger the source   |
+| cry     | username  | Only username can trigger the source |
 
 Example:
 
