@@ -321,24 +321,8 @@ Check:
 * Source is visible in OBS.
 * Duration is greater than 0.
 
----
+## Source vanishes early
 
-# Version Features
+Check:
 
-✔ Command triggers
-
-✔ Username-restricted commands
-
-✔ Trigger-value matching
-
-✔ Bot-response matching
-
-✔ Multiple source support
-
-✔ Walk-ons
-
-✔ Automatic rule saving
-
-✔ Automatic Twitch reconnect support
-
-✔ OBS shutdown-safe Twitch handling
+* Duration matches the source length with a +1s (1000ms).
