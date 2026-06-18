@@ -1,7 +1,7 @@
 # interactions.js
 
 Lists all interaction commands.
-
+## found in data/helpers
 Example:
 
 ```js
