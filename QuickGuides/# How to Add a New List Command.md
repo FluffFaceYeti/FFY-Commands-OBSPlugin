@@ -16,9 +16,6 @@ const customItems = {
     template: (sender, chosen, joke) =>
       `${sender}, your pet today is ${chosen}! ${joke}`,
   },
-};
-
-export default customItems;
 ```
 
 ---
@@ -75,7 +72,7 @@ Controls exactly how the command appears in chat.
 Example result:
 
 ```text
-@FluffFaceYeti, your pet today is Dragon! Very majestic.
+@username, your pet today is Dragon! Very majestic.
 ```
 
 ---
@@ -207,13 +204,13 @@ pets: {
 Normal Result:
 
 ```text
-@FluffFaceYeti, your pet today is Cat! Very fluffy.
+@username, your pet today is Cat! Very fluffy.
 ```
 
 Winner Result:
 
 ```text
-@FluffFaceYeti, your pet today is Dragon! You are the pets of the Day!
+@username, your pet today is Dragon! You are the pets of the Day!
 ```
 
-That's it. Add the command, register it in `listmaps.js`, and it will automatically support templates, jokes, tracking, leaderboards, and "Of The Day" features.
+That's it. Add the command, and it will automatically support templates, jokes, tracking, leaderboards, and "Of The Day" features.
