@@ -1,7 +1,7 @@
 # How to Add a New List Command
 
 ## Step 1 - Open `customlistcommands.js`
-
+## Location data/numeric-commands
 Add a new command using this format:
 
 ```js
