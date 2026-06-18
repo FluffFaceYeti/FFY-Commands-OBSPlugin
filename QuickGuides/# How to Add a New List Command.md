@@ -5,7 +5,6 @@
 Add a new command using this format:
 
 ```js
-const customItems = {
   pets: {
     list: [
       "Dog",
