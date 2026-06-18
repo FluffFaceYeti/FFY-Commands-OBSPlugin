@@ -2,6 +2,13 @@
 
 A Twitch-powered OBS automation plugin that can show and hide sources based on chat commands, bot responses, usernames, and viewer walk-ons.
 
+
+## Install Guide 
+# go to C:\Program Files\obs-studio\obs-plugins\64bit
+# download the DLL and PDB files from this directory
+# Copy or Move them into the OBS plugins folder (64bit) 
+
+#Open OBS, click "Docks" and you will now see "FFY Plugin"
 ---
 
 # Features
