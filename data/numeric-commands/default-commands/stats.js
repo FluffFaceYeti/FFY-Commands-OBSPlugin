@@ -128,26 +128,6 @@ const stats = {
     template: (sender, value, joke) =>
       `${sender}, You're operating at ${value}% sloth today! ${joke}`,
   },
-  awesome: {
-    min: 0,
-    max: 100,
-    levels: [30, 70],
-    unit: "%",
-    label: "Your Awesome Level",
-    unitSpace: false,
-    template: (sender, value, joke) =>
-      `${sender}, You're ${value}% awesome today! ${joke}`,
-  },
-  spicy: {
-    min: 0,
-    max: 100,
-    levels: [30, 70],
-    unit: "%",
-    label: "Your Spicy Level",
-    unitSpace: false,
-    template: (sender, value, joke) =>
-      `${sender}, You're bringing ${value}% spice today! ${joke}`,
-  },
   butt: {
     min: 0,
     max: 100,
@@ -157,16 +137,6 @@ const stats = {
     unitSpace: false,
     template: (sender, value, joke) =>
       `${sender}, Your butt is ${value}% juicy today! ${joke}`,
-  },
-    praise: {
-    min: 0,
-    max: 100,
-    levels: [30, 70],
-    unit: "%",
-    label: "FluffFaceYeti priases you",
-    unitSpace: false,
-    template: (sender, value, joke) =>
-      `${sender}, yourchosenusername(replace this) praises you ${value}% today! ${joke}`,
   },
 };
 export default stats;
