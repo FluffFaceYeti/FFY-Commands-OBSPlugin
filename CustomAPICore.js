@@ -37,7 +37,6 @@ import piratevibes from "./data/list-commands/default-commands/pirate.js";
 import pirateoutfits from "./data/list-commands/default-commands/pirateoutfits.js";
 import powers from "./data/list-commands/default-commands/powers.js";
 import sails from "./data/list-commands/default-commands/sails.js";
-import spells from "./data/list-commands/default-commands/spells.js";
 import wizardvibes from "./data/list-commands/default-commands/wizardvibes.js";
 import wizarditems from "./data/list-commands/default-commands/wizarditems.js";
 import SINGLE_VALUE_TYPES from "./data/helpers/singlelistitems.js";
