@@ -166,7 +166,7 @@ const stats = {
     label: "FluffFaceYeti priases you",
     unitSpace: false,
     template: (sender, value, joke) =>
-      `${sender}, username praises you ${value}% today! ${joke}`,
+      `${sender}, yourchosenusername(replace this) praises you ${value}% today! ${joke}`,
   },
 };
 export default stats;
