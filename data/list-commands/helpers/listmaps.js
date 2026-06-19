@@ -13,7 +13,7 @@ import piratevibes from "../default-commands/pirate.js";
 import pirateoutfits from "../default-commands/pirateoutfits.js";
 import powers from "../default-commands/powers.js";
 import sails from "../default-commands/sails.js";
-import wizardvibes from "../default-commands/wizard.js";
+import wizardvibes from "../default-commands/wizardvibes.js";
 import wizarditems from "../default-commands/wizarditems.js";
 import customItems from "../customlistcommands.js";
 
@@ -21,7 +21,7 @@ import customItems from "../customlistcommands.js";
       { map: colors, jokesKey: "colors", category: "colors" },
       { map: auravibes, jokesKey: "auravibes", category: "auravibes" },
       { map: piratevibes, jokesKey: "piratevibes", category: "piratevibes" },
-      { map: wizardvibes, jokesKey: "wizard", category: "wizardvibes" },
+      { map: wizardvibes, jokesKey: "wizardvibes", category: "wizardvibes" },
       { map: outfits, jokesKey: "outfits", category: "outfits" },
       { map: elements, jokesKey: "elements", category: "elements" },
       { map: powers, jokesKey: "powers", category: "powers" },
