@@ -20,7 +20,7 @@ const stats = {
       `${sender}, Your hair has reached ${value}cm today! ${joke}`,
   },
   pp: {
-    min: 15,
+    min: 3,
     max: 15,
     levels: [5, 7],
     unit: "inches",
@@ -39,7 +39,7 @@ const stats = {
       `${sender}, Your boob size today is ${value}! ${joke}`,
   },
   daddy: {
-    min: 100,
+    min: 0,
     max: 100,
     levels: [30, 70],
     unit: "%",
@@ -128,26 +128,6 @@ const stats = {
     template: (sender, value, joke) =>
       `${sender}, You're operating at ${value}% sloth today! ${joke}`,
   },
-  autism: {
-    min: 0,
-    max: 100,
-    levels: [30, 70],
-    unit: "%",
-    label: "Your Tism Level",
-    unitSpace: false,
-    template: (sender, value, joke) =>
-      `${sender}, Your tism is at ${value}% today !${joke}`,
-  },
-  bestie: {
-    min: 0,
-    max: 100,
-    levels: [30, 70],
-    unit: "%",
-    label: "Your Bestie level",
-    unitSpace: false,
-    template: (sender, value, joke) =>
-      `${sender}, You're ${value}% Yeti's bestie today! ${joke}`,
-  },
   awesome: {
     min: 0,
     max: 100,
@@ -186,7 +166,7 @@ const stats = {
     label: "FluffFaceYeti priases you",
     unitSpace: false,
     template: (sender, value, joke) =>
-      `${sender}, FluffFaceYeti praises you ${value}% today! ${joke}`,
+      `${sender}, username praises you ${value}% today! ${joke}`,
   },
 };
 export default stats;
