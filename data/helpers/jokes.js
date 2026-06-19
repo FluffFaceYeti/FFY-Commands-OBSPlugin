@@ -351,7 +351,7 @@ sails: [
     "Charting a course to greatness! 🗺️",
     "Taming the sea’s fiercest creatures! 🦑",
   ],
-  wizard: [
+  wizardvibes: [
     "Casting charm spells like a pro! 🪄",
     "Magical energy flows through you ✨",
     "Beware, your incantations may misfire 😏",
