@@ -13,7 +13,6 @@ import piratevibes from "../default-commands/pirate.js";
 import pirateoutfits from "../default-commands/pirateoutfits.js";
 import powers from "../default-commands/powers.js";
 import sails from "../default-commands/sails.js";
-import spells from "../default-commands/spells.js";
 import wizardvibes from "../default-commands/wizard.js";
 import wizarditems from "../default-commands/wizarditems.js";
 import customItems from "../customlistcommands.js";
@@ -42,7 +41,6 @@ import customItems from "../customlistcommands.js";
       { map: animal, jokesKey: "animal", category: "animal" },
       { map: sails, jokesKey: "sails", category: "sails" },
       { map: patronus, jokesKey: "patronus", category: "patronus" },
-      { map: spells, jokesKey: "spells", category: "spells" },
       { map: drink, jokesKey: "drink", category: "drink" },
       { map: fish, jokesKey: "fish", category: "fish" },
       { map: customItems, jokesKey: "customItems", category: "customItems" },
