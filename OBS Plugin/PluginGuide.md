@@ -309,6 +309,12 @@ Your PP is 15 inches today
 
 Won't work, or it may work randomly for values such as 1 and 5 as the reply contains both those numebrs. 
 
+Trigger:
+
+```text
+15 inches
+```
+
 Bot message:
 
 ```text
