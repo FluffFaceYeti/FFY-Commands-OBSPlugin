@@ -55,9 +55,9 @@ Useful for all the available commands in the project and much more.
 
 Example Rule:
 
-| Command | Trigger |
-| ------- | ------- |
-| pp      | 15      |
+| Command | Trigger        |
+| ------- | -------------- |
+| pp      | 15 inches      |
 
 Workflow:
 
@@ -76,10 +76,11 @@ Your PP is 15 inches today!
 The plugin sees:
 
 ```text
-15
+15 inches
 ```
 
-inside the bot message and triggers the source.
+inside the bot message and triggers the source. Note: the trigger must be exact! so if your command is for eample "Youy have hit 8/10 shots" and you want it to be triggered for 10/10
+your trigger must be 10/10.
 
 ---
 
@@ -130,7 +131,7 @@ Example:
 | Username    | Source         |
 | ----------- | -------------- |
 | username    | Entrance Video |
-| username  | Sparkles       |
+| username    | Sparkles       |
 
 When that user sends a message in chat:
 
@@ -192,7 +193,7 @@ Only works for username.
 
 | Command | Trigger | Username |
 | ------- | ------- | -------- |
-| pp      | 15      |          |
+| pp      | 15 inches |          |
 
 Result:
 
@@ -203,7 +204,7 @@ Result:
 Bot must respond with:
 
 ```text
-15
+15 inches
 ```
 
 before the source appears.
@@ -303,18 +304,18 @@ Trigger:
 Bot message:
 
 ```text
-Your PP is 15 today
+Your PP is 15 inches today
 ```
 
-Works.
+Won't work, or it may work randomly for values such as 1 and 5 as they reply contains both those numebrs. 
 
 Bot message:
 
 ```text
-Your PP is fifteen today
+Your PP is 15 inches today
 ```
 
-Does not work.
+Will work.
 
 ---
 
