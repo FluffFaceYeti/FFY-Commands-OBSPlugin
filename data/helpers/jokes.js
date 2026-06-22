@@ -18,6 +18,7 @@ const jokes = {
       "That smell could peel paint off the walls. 🧱🤢",
       "Legends will be told about this stench. 🏆💨",
     ],
+    perfect: [""],
   },
   southernbelle: {
     low: [
@@ -35,6 +36,7 @@ const jokes = {
       "Well, sugar, you're practically a *Southern Belle royalty* with that accent! Get ready to *charm the world*! 🍹",
       "Darling, that accent is a *full-on* sweet tea hurricane – y’all better hold on tight! 🍑",
     ],
+    perfect: [""],
   },
   fish: ["In memory of our dear Toran who loved to fish 🎆"],
   keg: [
@@ -43,7 +45,7 @@ const jokes = {
     "The Keg of Ancient Black Powder obliterated half their ship! 🚢💀",
     "The Black Powder Barrel hit perfectly — total devastation! 🔥🎮",
   ],
-sails: [
+  sails: [
     "Flying these says you’re ready to cooperate… but still won’t share the last banana 🍌😅",
     "Your forebears are watching… and judging your turn rate 👻⚓",
     "Aristocratic on the seas, peasants in the brig 🏴‍☠️🍷",
@@ -285,7 +287,7 @@ sails: [
     "You’re mysterious like that ✨🌫️",
   ],
   animal: [
-  	"You’re feeling regal and mighty today! 🦁",
+    "You’re feeling regal and mighty today! 🦁",
     "Ferocious energy surging through you! 🐯",
     "Strong and grounded vibes. 🐻",
     "Loyal and playful spirit today. 🐶",
@@ -441,6 +443,7 @@ sails: [
       "even the jungle applauds your laziness. 🌿👏",
       "you've achieved maximum chill. the gods of sloth salute you. 😌🦥",
     ],
+    perfect: [""],
   },
   tinkabell: {
     low: [
@@ -455,6 +458,7 @@ sails: [
       "peter pan would be so proud. 🦸",
       "LOOK AT THAT PISS CURSE FLY. 🪄",
     ],
+    perfect: [""],
   },
   fox: {
     low: [
@@ -469,6 +473,7 @@ sails: [
       "You are a sly fox stealing hearts and sandwiches. ❤️",
       "Everyone’s keeping an eye on you, clever fox. 👀",
     ],
+    perfect: [""],
   },
   goodgirl: {
     low: [
@@ -483,6 +488,7 @@ sails: [
       "Excellent! Gold star for best behavior. 🌟",
       "You’ve achieved maximum good girl mode. 👑",
     ],
+    perfect: [""],
   },
   flame: {
     low: [
@@ -497,6 +503,7 @@ sails: [
       "Agent Flame can’t stop talking about you. 💬",
       "You are burning bright in Flame’s memory today. 🔥",
     ],
+    perfect: [""],
   },
   sleep: {
     low: [
@@ -511,6 +518,7 @@ sails: [
       "You desperately need sleep. 😴",
       "Someone get you a pillow immediately. 🛌",
     ],
+    perfect: [""],
   },
   beard: {
     low: ["Patchy but proud! 😅", "Still in early access version. ⏳"],
@@ -519,6 +527,7 @@ sails: [
       "Wizard mode unlocked! 🧙‍♂️",
       "That beard tells stories of adventure. 📖",
     ],
+    perfect: [""],
   },
   catmom: {
     low: [
@@ -533,16 +542,19 @@ sails: [
       "Supreme Cat Mom — the cat has chosen her as their human. 😻👑",
       "Expert-level cat whisperer detected. 🐈✨",
     ],
+    perfect: [""],
   },
   hair: {
     low: ["Short and snappy! ✂️", "Buzzcut of confidence. 😎"],
     medium: ["Perfect flow length! 💇", "Balanced and beautiful. 🌸"],
     high: ["Rapunzel could never! 💇‍♀️", "That mane is a national treasure. 🇺🇸"],
+    perfect: [""],
   },
   pp: {
     low: ["Compact and efficient! 🏋️‍♂️", "Fun-sized champion! 🏆"],
     medium: ["Perfectly balanced. ⚖️", "Reliable and effective! 💪"],
     high: ["Legendary proportions! 📏", "Folklore-worthy size! 📚"],
+    perfect: [""],
   },
   mila: {
     low: [
@@ -554,6 +566,7 @@ sails: [
       "She blinked slowly. That is cat love. 💖",
     ],
     high: ["Mila purrs loudly in your honor! 😻", "Mila adores you. 🐾"],
+    perfect: [""],
   },
   ivy: {
     low: [
@@ -565,6 +578,7 @@ sails: [
       "Ivy loves you unconditionally! 💚",
       "You are the chosen lap human! 🏆",
     ],
+    perfect: [""],
   },
   theo: {
     low: ["Theo is pretending you do not exist. 😤", "Theo left the room. 🏃‍♂️"],
@@ -573,6 +587,7 @@ sails: [
       "Theo loves you unconditionally! 💙",
       "Theo will nap on you later. 💤",
     ],
+    perfect: [""],
   },
   fluffy: {
     low: [
@@ -584,6 +599,7 @@ sails: [
       "Fluffy cannot stop purring! 🐱",
       "Fluffy thinks you are the best human! 🌟",
     ],
+    perfect: [""],
   },
   daddy: {
     low: ["Not very daddy today. 😬", "Maybe work on your confidence. 💪"],
@@ -592,6 +608,7 @@ sails: [
       "Certified DILF energy. 😎",
       "The room goes quiet when you enter. 🕴",
     ],
+    perfect: [""],
   },
   mama: {
     low: ["Not very mama today. 😬", "Maybe work on your confidence. 💪"],
@@ -600,11 +617,13 @@ sails: [
       "Certified MAMA energy. 😎",
       "The room goes quiet when you enter. 🕴",
     ],
+    perfect: [""],
   },
   pirate: {
     low: ["You dropped your compass. 🧭", "Your ship is still in dock. 🚢"],
     medium: ["You are swashbuckling nicely. ⚓", "The crew respects you. 👑"],
     high: ["Captain material! 🏴‍☠️", "The seas whisper your name! 🌊"],
+    perfect: [""],
   },
   treasure_hunting: {
     low: [
@@ -619,6 +638,7 @@ sails: [
       "You struck gold, Captain! 🏆",
       "Legend says the treasure sings your name! 🎶🏴‍☠️",
     ],
+    perfect: [""],
   },
   sea_navigation: {
     low: [
@@ -633,6 +653,7 @@ sails: [
       "You ride the stars like a legend! 🌟",
       "The sea parts before ye, Navigator Supreme! 🚢✨",
     ],
+    perfect: [""],
   },
   ship_maintenance: {
     low: [
@@ -647,6 +668,7 @@ sails: [
       "Your ship gleams brighter than gold! 🏴‍☠️✨",
       "Even Poseidon admires your craftsmanship! 🌊🔧",
     ],
+    perfect: [""],
   },
   swordsmanship: {
     low: [
@@ -661,6 +683,7 @@ sails: [
       "You duel like a legend of the seas! 🏴‍☠️",
       "No blade can best ye, Captain! 👑⚔️",
     ],
+    perfect: [""],
   },
   swashbuckling: {
     low: [
@@ -675,6 +698,7 @@ sails: [
       "The crowd cheers your daring stunts! 🎉",
       "Even Blackbeard would applaud ye! ☠️🔥",
     ],
+    perfect: [""],
   },
   plunder: {
     low: [
@@ -689,6 +713,7 @@ sails: [
       "You emptied a fleet’s worth of gold! 🏆",
       "The sea trembles at your greed! 💎☠️",
     ],
+    perfect: [""],
   },
   cannon_use: {
     low: [
@@ -700,6 +725,7 @@ sails: [
       "A clean blast! The crew cheers! 🏴‍☠️💥",
     ],
     high: ["Perfect aim, Captain! 💀", "The enemy ship’s in splinters! 💣🔥"],
+    perfect: [""],
   },
   crew_morale: {
     low: [
@@ -714,6 +740,7 @@ sails: [
       "The crew would follow ye to Davy Jones! ☠️",
       "Your name lifts hearts across the sea! 🏴‍☠️❤️",
     ],
+    perfect: [""],
   },
   intimidation: {
     low: [
@@ -728,6 +755,7 @@ sails: [
       "Your mere presence makes krakens tremble! 🐙💀",
       "Legends whisper your wrath! ⚓🔥",
     ],
+    perfect: [""],
   },
   parley: {
     low: [
@@ -742,21 +770,25 @@ sails: [
       "You turned enemies into allies with a word! 🤝🏴‍☠️",
       "Your diplomacy saves fleets! 🕊️🌊",
     ],
+    perfect: [""],
   },
   swordlunge: {
     low: ["You tripped on the lunge. 🤦‍♂️", "Practice makes perfect. 💪"],
     medium: ["A clean strike. ⚔️", "Your stance is strong. 💪"],
     high: ["A masterful lunge! 🏆", "Your enemies tremble in fear! 😱"],
+    perfect: [""],
   },
   butt: {
     low: ["Flat as a plank. 🚫", "Not much bounce today. 🛑"],
     medium: ["Nice curve going! 🍑", "A respectable peach. 🍑"],
     high: ["Legend status! 👑", "That is a certified fruit salad! 🥝"],
+    perfect: [""],
   },
   anger: {
     low: ["Calm as a monk. 🧘", "You are chill today. 😌"],
     medium: ["Mildly irritated. 😤", "Someone cut you off in traffic. 🚗"],
     high: ["Rage incarnate! 😡", "Your keyboard fears for its life. ⌨️"],
+    perfect: [""],
   },
   princess: {
     low: ["A little scruffy today. 👑", "Your tiara is crooked. 👑"],
@@ -765,6 +797,7 @@ sails: [
       "Royalty radiates from you! 👑",
       "All hail the majestic princess! 👑",
     ],
+    perfect: [""],
   },
   nerd: {
     low: ["Barely read one wiki today. 📚", "Low nerd output. 🤓"],
@@ -773,6 +806,7 @@ sails: [
       "Big brain mode activated! 🤯",
       "You just debugged reality itself! 🖥️",
     ],
+    perfect: [""],
   },
   bonk: {
     low: [
@@ -787,6 +821,7 @@ sails: [
       "That bonk echoed through the land! 🔊",
       "Maximum bonk achieved! Someone’s going to feel that. 😬",
     ],
+    perfect: [""],
   },
   boop: {
     low: [
@@ -801,6 +836,7 @@ sails: [
       "A powerful boop! 💥",
       "The world trembles before your booping power. 🌍",
     ],
+    perfect: [""],
   },
   fliptable: {
     low: [
@@ -815,6 +851,7 @@ sails: [
       "That table didn’t stand a chance. ⚡",
       "Utter chaos. The table flew across the room. 💥",
     ],
+    perfect: [""],
   },
   highfive: {
     low: [
@@ -829,6 +866,7 @@ sails: [
       "Perfect synchronization! That clap could summon thunder. ⚡",
       "Legendary high-five! Everyone felt that energy. 🔥",
     ],
+    perfect: [""],
   },
   hug: {
     low: [
@@ -843,6 +881,7 @@ sails: [
       "A bear hug that could break your bones! 🐻",
       "You’re enveloped in warmth and love. 🥰",
     ],
+    perfect: [""],
   },
   kiss: {
     low: [
@@ -857,6 +896,7 @@ sails: [
       "That kiss could melt hearts. ❤️",
       "Romance level: professional. 💍",
     ],
+    perfect: [""],
   },
   love: {
     low: [
@@ -871,6 +911,7 @@ sails: [
       "Overflowing with love and positivity! 💖",
       "You radiate pure affection today. ✨",
     ],
+    perfect: [""],
   },
   pat: {
     low: [
@@ -885,6 +926,7 @@ sails: [
       "An excellent pat — pure serotonin. 🧠",
       "Your pats bring joy to all. 😻",
     ],
+    perfect: [""],
   },
   slap: {
     low: [
@@ -899,6 +941,7 @@ sails: [
       "A thunderous slap heard across chat. ⚡",
       "That slap will be remembered forever. 🏆",
     ],
+    perfect: [""],
   },
   spank: {
     low: [
@@ -913,6 +956,7 @@ sails: [
       "A flawless spank. 10/10 execution. 👏",
       "You spanked like a pro — impressive work. 👑",
     ],
+    perfect: [""],
   },
   chainshot: {
     low: [
@@ -930,6 +974,7 @@ sails: [
       "You turned their mast into a limp noodle. 🍜",
       "Dead-on! Even Flameheart would applaud. 🔥",
     ],
+    perfect: [""],
   },
   sniper: {
     low: [
@@ -947,6 +992,7 @@ sails: [
       "Absolute laser precision! 🔫",
       "Your aim is illegal in at least 12 regions. 🚫",
     ],
+    perfect: [""],
   },
   swordlord: {
     low: [
@@ -964,6 +1010,7 @@ sails: [
       "Your blade moves faster than lag. ⚡",
       "Even the Ferry of the Damned has your punch card. 💀",
     ],
+    perfect: [""],
   },
   lunge: {
     low: [
@@ -981,6 +1028,7 @@ sails: [
       "You travelled so far even the map couldn’t keep up. 🗺️",
       "A god-tier lunge that Poseidon himself would fear. 🌊👑",
     ],
+    perfect: [""],
   },
   tuck: {
     low: [
@@ -998,6 +1046,7 @@ sails: [
       "You vanished so well even YOU questioned where you went. 🫥",
       "A God-tier tuck. Athena would whisper your name. 🏴‍☠️",
     ],
+    perfect: [""],
   },
   gh: {
     low: [
@@ -1015,6 +1064,7 @@ sails: [
       "You unearthed chests like a pirate machine. ⚙️💰",
       "The Hoarders promote you to 'Chief Shovel Wizard'. 🪄",
     ],
+    perfect: [""],
   },
   oos: {
     low: [
@@ -1032,6 +1082,7 @@ sails: [
       "Even the Gold Skeletons run from you now. 🏃‍♂️",
       "Order of Souls gives you a VIP lantern. 🏮",
     ],
+    perfect: [""],
   },
   ma: {
     low: [
@@ -1049,6 +1100,7 @@ sails: [
       "You delivered everything pristine — even the plants. 🌱",
       "Merchant Alliance offers you a CEO position. 📊",
     ],
+    perfect: [""],
   },
   athena: {
     low: [
@@ -1066,6 +1118,7 @@ sails: [
       "You plundered Athena like a mythical beast. 🐉",
       "Athena blesses your voyage forevermore! 🌌",
     ],
+    perfect: [""],
   },
   reaper: {
     low: [
@@ -1083,6 +1136,7 @@ sails: [
       "Whole servers fear your shadow. 🌑",
       "You collected more flags than the Olympics. 🏅",
     ],
+    perfect: [""],
   },
   hunter: {
     low: [
@@ -1100,6 +1154,7 @@ sails: [
       "Fish fear your bait. 🔥🐟",
       "You turned cooking into an art form. 🎨",
     ],
+    perfect: [""],
   },
   throwshoe: {
     low: [
@@ -1114,6 +1169,7 @@ sails: [
       "Bullseye! The shoe hit perfectly. 🎯",
       "That throw could win the Olympics. 🥇",
     ],
+    perfect: [""],
   },
   lift: {
     low: [
@@ -1125,6 +1181,7 @@ sails: [
       "You’re warming up nicely. 🔥",
     ],
     high: ["Beast mode activated! 💥", "That lift shook the gym! 🏋️‍♀️"],
+    perfect: [""],
   },
   run: {
     low: ["You walked more than you ran. 🚶‍♂️", "A light jog counts, right? 🏃‍♂️"],
@@ -1133,6 +1190,7 @@ sails: [
       "You’re keeping a great pace! 🏃‍♀️",
     ],
     high: ["You sprinted like the wind! 🌪️", "Track star energy today! 🏅"],
+    perfect: [""],
   },
   sprint: {
     low: [
@@ -1141,6 +1199,7 @@ sails: [
     ],
     medium: ["Quick burst of energy! ⚡", "You dashed like you meant it! 🏃‍♂️"],
     high: ["Lightning couldn’t keep up! ⚡", "You left dust trails behind! 🌪️"],
+    perfect: [""],
   },
   deadlift: {
     low: ["That barbell didn’t move much. 🏋️‍♂️", "You gave it a polite tug. 🙃"],
@@ -1149,6 +1208,7 @@ sails: [
       "Good pull with clean form. 🏋️‍♀️",
     ],
     high: ["Ground shaking deadlift! 🌍", "That was a personal best! 🏆"],
+    perfect: [""],
   },
   curl: {
     low: [
@@ -1157,6 +1217,7 @@ sails: [
     ],
     medium: ["Nice pump forming! 💥", "Steady curl with proper form. 🏋️‍♂️"],
     high: ["Biceps of steel! 🏋️‍♀️", "Those arms could crush walnuts! 🌰"],
+    perfect: [""],
   },
   row: {
     low: ["You gently rocked the boat. 🚣‍♀️", "Barely moved the oars. 🌊"],
@@ -1165,6 +1226,7 @@ sails: [
       "You powered through the water! 🌊",
       "Rowing champion performance! 🏅",
     ],
+    perfect: [""],
   },
   stretch: {
     low: ["You reached halfway there. 🤸‍♂️", "Could use more bend next time. 🙆‍♀️"],
@@ -1173,6 +1235,7 @@ sails: [
       "Gymnast levels of flexibility! 🤸‍♀️",
       "You could join a yoga class! 🧘‍♀️",
     ],
+    perfect: [""],
   },
   gold: {
     low: [
@@ -1187,6 +1250,7 @@ sails: [
       "Your pouch overflows with coins! 💰",
       "You could buy the tavern today! 🍻",
     ],
+    perfect: [""],
   },
   squeeze: {
     low: [
@@ -1204,6 +1268,7 @@ sails: [
       "Squeeze of a champion! 🏆",
       "Your grip is as strong as steel! 🔩",
     ],
+    perfect: [""],
   },
   push: {
     low: [
@@ -1221,6 +1286,7 @@ sails: [
       "You're pushing like a pro! 🏋️‍♂️",
       "That was a monster push! 💥",
     ],
+    perfect: [""],
   },
   jump: {
     low: [
@@ -1238,6 +1304,7 @@ sails: [
       "You’ve got wings, my friend! 🕊️",
       "That was an Olympic-level jump! 🏅",
     ],
+    perfect: [""],
   },
   press: {
     low: [
@@ -1255,6 +1322,7 @@ sails: [
       "You’re pressing like a powerlifter! 🏋️‍♀️",
       "That press could break records! 🏆",
     ],
+    perfect: [""],
   },
   kick: {
     low: [
@@ -1272,6 +1340,7 @@ sails: [
       "Your kick is unstoppable! 💥",
       "That kick would make a superhero proud! 💪",
     ],
+    perfect: [""],
   },
   happiness: {
     low: [
@@ -1286,6 +1355,7 @@ sails: [
       "You're glowing with happiness today! 🌟",
       "You're the embodiment of joy right now! 😄",
     ],
+    perfect: [""],
   },
   anger: {
     low: [
@@ -1300,6 +1370,7 @@ sails: [
       "You're ready to smash things, calm down! 🧨",
       "Easy there, Hulk. Let's take a breath. 😤",
     ],
+    perfect: [""],
   },
   calmness: {
     low: ["A bit stressed today? 😬", "Maybe a deep breath might help. 🧘‍♂️"],
@@ -1311,6 +1382,7 @@ sails: [
       "You're the calmest person in the room right now. 😎",
       "Nothing can shake your calmness today. 🧘‍♀️",
     ],
+    perfect: [""],
   },
   joy: {
     low: [
@@ -1325,6 +1397,7 @@ sails: [
       "You're radiating pure joy right now! 🌟",
       "Your joy could light up a whole city! 🏙️",
     ],
+    perfect: [""],
   },
   excitement: {
     low: [
@@ -1339,6 +1412,7 @@ sails: [
       "You're practically bouncing with excitement! 🤩",
       "You’re so excited, it’s contagious! 😜",
     ],
+    perfect: [""],
   },
   love_group: {
     low: ["barely noticed you today. 🙄", "is ignoring you again. 🤷‍♂️"],
@@ -1347,11 +1421,13 @@ sails: [
       "is obsessed with you today. 😍",
       "can't stop thinking about you. 💭",
     ],
+    perfect: [""],
   },
   hate_group: {
     low: ["barely annoyed with you. 😑", "shrugged it off. 🤷‍♀️"],
     medium: ["gave you a dirty look. 😒", "is not impressed. 🙄"],
     high: ["absolutely furious with you. 😡", "can't stand you today. 🤬"],
+    perfect: [""],
   },
   skills_group: {
     low: ["Your aim is terrible today. 🎯", "Not very focused at all. 🤔"],
@@ -1360,6 +1436,7 @@ sails: [
       "Pretty decent performance. 👌",
     ],
     high: ["Perfect form and focus. 🏆", "You could teach others today. 🎓"],
+    perfect: [""],
   },
   dj: {
     low: [
@@ -1377,6 +1454,7 @@ sails: [
       "You just turned the dance floor into a hurricane of awesome. 🌪️",
       "Your mixes are so fire, the fire extinguisher just ran out. 🔥",
     ],
+    perfect: [""],
   },
   bb: {
     low: ["A humble hero 😌", "Small but mighty 💕"],
@@ -1385,6 +1463,7 @@ sails: [
       "Top-tier symmetry 💖",
     ],
     high: ["An absolute legend 😳", "That’s... gravitationally impressive 🌌"],
+    perfect: [""],
   },
 };
 export default jokes;
