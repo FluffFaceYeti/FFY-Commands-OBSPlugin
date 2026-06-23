@@ -12,6 +12,9 @@ Open OBS, click "Docks" and you will now see "FFY Plugin"
 
 # Features
 
+NOTE: The OBS Plugin does not work with OBS folders. It currently works with direct sources and sources that are nested into a scene. 
+
+
 ## Command-Based Source Triggers
 
 Trigger OBS sources from Twitch chat commands.
@@ -20,10 +23,6 @@ Example:
 
 ```text
 !waffles
-```
-
-```text
-NOTE: The OBS Plugin does not work with OBS folders. It currently works with direct sources and sources that are nested into a scene. 
 ```
 
 Shows the selected OBS source for the configured duration.
