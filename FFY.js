@@ -801,7 +801,6 @@ const statCounters = {};
 const commandCounters = {};
 const giveawayEntries = [];
 const giveawayWinners = [];
-const santaStats = {};
 let interactionStats = {};
 let interactionStatsDate = "";
 
