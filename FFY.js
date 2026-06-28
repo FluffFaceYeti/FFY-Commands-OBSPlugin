@@ -1693,9 +1693,11 @@ if (map === stats && type === "bb") {
 
 if (map === stats && type === "pp") {
 
+  const tenthSteps = (cfg.max - cfg.min) * 10;
+
   const value = doNotTrack.includes(type)
-    ? Math.floor(Math.random() * (cfg.max - cfg.min + 1)) + cfg.min
-    : generateValue(seed, type, cfg.max, cfg.min, sender);
+    ? +(cfg.min + (Math.floor(Math.random() * (tenthSteps + 1)) / 10)).toFixed(1)
+    : +(cfg.min + (generateValue(seed, type, tenthSteps, 0, sender) / 10)).toFixed(1);
 
   const cm = Math.round(value * 2.54);
   const joke = getJoke(req, type, value, cfg);
