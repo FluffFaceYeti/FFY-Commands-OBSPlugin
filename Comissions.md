@@ -9,15 +9,15 @@ I offer simple video editing for **Twitch, YouTube, TikTok, Shorts, Reels, and o
 
 ##Pricing
 
-| Service                          | Price |
-| -------------------------------- | ----: |
-| Short Clip (up to 60 seconds)    |    £5 | ##Open - 4 slots available 
-| Short-Form Video (1–3 minutes)   |    £8 | ##Open - 4 slots available 
-| YouTube Video (up to 10 minutes) |   £15 | ##closed
-| YouTube Video (10–20 minutes)    |   £25 | ##closed
-| YouTube Video (20–30 minutes)    |   £35 | ##closed
-| Stream Highlights / Compilation  |  £30+ | ##closed
-| Additional revisions             |    £3 |
+| Service                          | Price | Status | Availability | 
+| -------------------------------- | ----- | -----  | -----------: |
+| Short Clip (up to 60 seconds)    |    £5 | Open   | 4 Slots      |
+| Short-Form Video (1–3 minutes)   |    £8 | Open   | 4 Slots      |
+| YouTube Video (up to 10 minutes) |   £15 | Closed | 0 Slots      |
+| YouTube Video (10–20 minutes)    |   £25 | Closed | 0 Slots      |
+| YouTube Video (20–30 minutes)    |   £35 | Closed | 0 Slots      |
+| Stream Highlights / Compilation  |  £30+ | Closed | 0 Slots      |
+| Additional revisions             |    £3 | Open   | Tied to Clients |
 
 ### 📦 Bundle Deals
 
