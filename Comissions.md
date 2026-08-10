@@ -19,6 +19,8 @@ I offer simple video editing for **Twitch, YouTube, TikTok, Shorts, Reels, and o
 | Stream Highlights / Compilation  |  £30+ | Closed | 0 Slots      |
 | Additional revisions             |    £3 | Open   | Tied to Clients |
 
+Content must be provided, Sending hours of footage will not be accepeted.
+
 # Bundle Deals
 
 **5 Short Clips — £20**
