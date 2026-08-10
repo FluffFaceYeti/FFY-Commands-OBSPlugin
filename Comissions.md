@@ -1,5 +1,5 @@
 
-***Video Editing Commissions
+# Video Editing Commissions
 
 Looking for someone to turn your streams, clips, or recordings into polished content?
 
@@ -7,7 +7,7 @@ I offer simple video editing for **Twitch, YouTube, TikTok, Shorts, Reels, and o
 
 ---
 
-***Pricing
+# Pricing
 
 | Service                          | Price | Status | Availability | 
 | -------------------------------- | ----- | -----  | -----------: |
@@ -19,7 +19,7 @@ I offer simple video editing for **Twitch, YouTube, TikTok, Shorts, Reels, and o
 | Stream Highlights / Compilation  |  £30+ | Closed | 0 Slots      |
 | Additional revisions             |    £3 | Open   | Tied to Clients |
 
-***Bundle Deals
+# Bundle Deals
 
 **5 Short Clips — £20**
 Save £5 compared to ordering individually.
@@ -31,7 +31,7 @@ Save £15 compared to ordering individually.
 
 ---
 
-***What's Included
+# What's Included
 
 Depending on the project, editing can include:
 
@@ -49,7 +49,7 @@ Depending on the project, editing can include:
 
 ---
 
-***Extra Charges
+# Extra Charges
 
 Some projects may require additional pricing depending on complexity.
 
@@ -65,13 +65,13 @@ I'll always discuss any additional costs **before starting the work.**
 
 ---
 
-***How to Commission Me
+# How to Commission Me
 
 Please provide your details here: https://forms.gle/4KQm2YEHETKyJb178
 
 ---
 
-***Revisions
+# Revisions
 
 Each commission includes **1 round of reasonable revisions**.
 
@@ -81,7 +81,7 @@ Major changes or complete re-edits may incur an additional charge.
 
 ---
 
-***Payment
+# Payment
 
 Payment is required **before the final edited video is delivered.**
 
@@ -89,7 +89,7 @@ Accepted payment methods can be discussed when placing your commission.
 
 ---
 
-***Important
+# Important
 
 I reserve the right to decline commissions that I don't feel I can complete to a good standard.
 
@@ -99,6 +99,6 @@ By commissioning me, you confirm that you have the rights or permission to provi
 
 ---
 
-***Interested?
+# Interested?
 
 Send me a message with the details of your project and I'll be happy to discuss it with you!
