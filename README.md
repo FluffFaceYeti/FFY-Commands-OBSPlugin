@@ -1,3 +1,8 @@
+WHAT IS THIS?
+
+A small collection of tools that can be used to elevate your channel as a content creator. Custom API commands, Per user commands, Walk ons and more!
+These tools are free to use, however if you wish to send a donation as a token of appreciation you can do so here - https://ko-fi.com/flufffaceyeti
+====================================================
 NEED HELP?
 ====================================================
 For a small donation, I will help you tailor the script to suit your needs. This includes.
