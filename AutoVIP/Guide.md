@@ -1,70 +1,88 @@
-AutoVIP for Streamer.bot
-Credit: BehavingBeardly
+# AutoVIP for Streamer.bot
 
-What it does
+Automatically gives VIP to your top supporters and removes it when they drop off. VIPs only change while you're live.
 
-Automatically gives VIP to your top supporters and removes it when
-they drop off. VIPs only change while you're live.
+**Credit:** BehavingBeardly
 
-The top 30 on each leaderboard get VIP:
-    Watch streak      at least 5 streams in a row
-    Sub streak        at least 5 months
-    Gifted subs       at least 1
-    Bits cheered      at least 100
+---
 
+## How it works
 
-Who is skipped
+The top 30 viewers on each leaderboard get VIP, as long as they meet the minimum:
 
-    Mods, lead mods, editors and artists (detected automatically)
-    Bots and the broadcaster
-    Manual VIPs: anyone on the Manual VIPs list, or given VIP by hand
+| Leaderboard   | Minimum to qualify          |
+|---------------|-----------------------------|
+| Watch streak  | 5 streams in a row          |
+| Sub streak    | 5 months                    |
+| Gifted subs   | 1 gifted sub                |
+| Bits cheered  | 100 bits                    |
 
-Skipped people never appear on leaderboards, !myrank or the lists,
-and never take a VIP spot. Only normal viewers can win or lose the
-badge. It never removes a VIP it didn't give.
+### Who is skipped
 
+- Mods, lead mods, editors and artists (detected automatically)
+- Bots and the broadcaster
+- Manual VIPs: anyone on the **Manual VIPs** list, or anyone given VIP by hand
 
-Commands
+Skipped users never appear on the leaderboards, in `!myrank` or in the saved lists, and never take up a VIP spot. Only normal viewers can win or lose the badge.
 
-    !myrank                       Anyone: see your leaderboard ranks
+> **Note:** AutoVIP never removes a VIP it didn't give.
 
-    Mods only:
-    !refreshvip                   Update VIPs now
-    !setgifted <user> <amount>    Fix someone's gifted sub total
-    !topwatchstreak               Watch streak leaderboard
-    !topsubstreak                 Sub streak leaderboard
-    !topgifters                   Gifted subs leaderboard
-    !topbits                      Bits leaderboard
-    !topvips                      All leaderboards
+---
 
+## Commands
 
-Settings (top of the code)
+### Everyone
 
-    Minimums and top 30         How to qualify
-    Manual VIPs                 Names the script leaves alone
-    RESET_PERIOD_MONTHS         0 never resets, or 6, 12, 24...
-    RESET_START_DATE            When periods start, e.g. "2026-01-01"
-                                ("" starts from the first run)
-    RESET_KEEPS_DATA            true ranks on this period only and keeps
-                                all-time data, false wipes everything
-    INCLUDE_LIFETIME_DATA       true uses Twitch's lifetime numbers,
-                                false counts only since the last reset
-    ANNOUNCE_NEW_VIPS           true posts in chat when someone earns VIP
-    GRACE_PERIOD_DAYS           Days someone keeps VIP after dropping off
-    ENABLE_MYRANK               true turns !myrank on
+| Command   | Description                   |
+|-----------|-------------------------------|
+| `!myrank` | See your leaderboard ranks    |
 
+### Mods only
 
-Lists in Streamer.bot
+| Command                       | Description                          |
+|-------------------------------|--------------------------------------|
+| `!refreshvip`                 | Update VIPs now                      |
+| `!setgifted <user> <amount>`  | Fix someone's gifted sub total       |
+| `!topwatchstreak`             | Show the watch streak leaderboard    |
+| `!topsubstreak`               | Show the sub streak leaderboard      |
+| `!topgifters`                 | Show the gifted subs leaderboard     |
+| `!topbits`                    | Show the bits leaderboard            |
+| `!topvips`                    | Show all leaderboards                |
 
-    Full rankings are saved in Global Variables and update on every
-    refresh:
-    AutoVIP - WatchStreakList, AutoVIP - SubStreakList,
-    AutoVIP - GiftedSubsList, AutoVIP - BitsList,
-    AutoVIP - CurrentVIPsList
+---
 
+## Settings
 
-Install
+All settings are at the top of the code.
 
-    1. Streamer.bot > Import > Enjoy
-    2. Open the AUTOVIP code and click Compile
-    3. Turn on the AutoVIP commands and the Auto VIP Refresh timer
+| Setting                  | Description |
+|--------------------------|-------------|
+| Minimums and top 30      | How viewers qualify for each leaderboard |
+| Manual VIPs              | Names the script will leave alone |
+| `RESET_PERIOD_MONTHS`    | `0` never resets, or set a period such as `6`, `12`, `24`… |
+| `RESET_START_DATE`       | When reset periods start, e.g. `"2026-01-01"`. Use `""` to start from the first run |
+| `RESET_KEEPS_DATA`       | `true` ranks on the current period only and keeps all-time data. `false` wipes everything on reset |
+| `INCLUDE_LIFETIME_DATA`  | `true` uses Twitch's lifetime numbers. `false` counts only since the last reset |
+| `ANNOUNCE_NEW_VIPS`      | `true` posts in chat when someone earns VIP |
+| `GRACE_PERIOD_DAYS`      | Days someone keeps VIP after dropping off a leaderboard |
+| `ENABLE_MYRANK`          | `true` turns on the `!myrank` command |
+
+---
+
+## Saved lists
+
+Full rankings are saved as **Global Variables** in Streamer.bot and update on every refresh:
+
+- `AutoVIP - WatchStreakList`
+- `AutoVIP - SubStreakList`
+- `AutoVIP - GiftedSubsList`
+- `AutoVIP - BitsList`
+- `AutoVIP - CurrentVIPsList`
+
+---
+
+## Installation
+
+1. In Streamer.bot, go to **Import** and import the AutoVIP file, then **Enjoy**.
+2. Open the **AUTOVIP** code, change it to meet your needs and click **Compile**.
+3. Enable the **AutoVIP commands** and the **Auto VIP Refresh** timer.
