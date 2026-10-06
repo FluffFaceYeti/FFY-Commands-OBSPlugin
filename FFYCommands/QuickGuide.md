@@ -73,12 +73,11 @@ A pack of **200 fun chat commands** for Streamer.bot that work on **Twitch, Kick
 
 You need **Streamer.bot version 1.0 or newer**.
 
-1. Download **`FFY-Commands-import.txt`** from this page.
-2. Open it (it opens in Notepad), then press **Ctrl + A** to select everything and **Ctrl + C** to copy.
-3. Open **Streamer.bot**.
-4. Click **Import** in the bar at the top of the window.
-5. Click inside the **Import String** box and press **Ctrl + V**.
-6. Click **Import**.
+1. Download **`FFYCommands`** file from this page.
+2. Open **Streamer.bot**.
+3. Click **Import** in the bar at the top of the window.
+4. Drag and drop the file into the box.
+5. Click **Import**.
 
 ✅ That's it: everything is installed. **All the commands start switched off**, so you get to choose which ones you want. Go to the next section to switch them on.
 
