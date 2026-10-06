@@ -1,4 +1,4 @@
-# 📖 FFY Commands: The Complete Guide
+#FFY Commands: The Complete Guide
 
 Everything you need to set up, use and customise **FFY Commands** in Streamer.bot, step by step with examples.
 
