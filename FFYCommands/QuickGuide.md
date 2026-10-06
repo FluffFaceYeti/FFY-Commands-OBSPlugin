@@ -1,4 +1,3 @@
-
 # 📖 FFY Commands: The Complete Guide
 
 Everything you need to set up, use and customise **FFY Commands** in Streamer.bot, step by step with examples.
@@ -139,7 +138,7 @@ Open **FFY Switches** (also in **FFY Helpers**) the same way. Each switch has a 
 
 ### Set your time zone (optional)
 
-By default, "today" follows your PC's clock. To use a different time zone, change this line in **FFY Config**:
+By default, "today" (and midnight) follows your PC's clock. That's fine for most people. To use a set time zone instead, change this line in **FFY Config**:
 
 ```csharp
 Set("timeZone", "GMT Standard Time");
@@ -173,6 +172,10 @@ Set("timeZone", "GMT Standard Time");
 | `"Alaskan Standard Time"` | UTC-09:00 | Alaska |
 | `"Hawaiian Standard Time"` | UTC-10:00 | Hawaii |
 | `"UTC"` | UTC+00:00 | Universal time (no daylight saving) |
+
+> ⚠️ **Use the names in this table, not names like `Europe/London` or `America/New_York`.** Streamer.bot runs on Windows, which only understands the Windows names. If the name isn't recognised, FFY uses your PC's clock instead and writes `[FFY] Unknown timeZone` in the **Logs** tab.
+>
+> Not listed? Search online for *"Windows time zone ID"* plus your city. Daylight saving (summer time) is handled automatically.
 
 ---
 
@@ -937,7 +940,7 @@ Set("consentRequired", false);
 | Setting | Starts as | What it does |
 |---|---|---|
 | `channelName` | `""` | Your channel name. Makes your viewers' results unique to your channel. Changing it later shuffles everyone's results. |
-| `timeZone` | `""` | When "today" starts. `""` = your PC's clock. Or a time zone name, e.g. `"GMT Standard Time"`. |
+| `timeZone` | `""` | When "today" starts. `""` = your PC's clock. Or a **Windows** time zone name, e.g. `"GMT Standard Time"`, not `"Europe/London"` ([see the list](#set-your-time-zone-optional)). |
 | `consentTimeoutSeconds` | `60` | Seconds people get to `!accept` or `!deny`. |
 | `disabledCommands` | *(off)* | Commands that never reply, even if switched on in the Commands tab. Remove the `//` and list them: `Set("disabledCommands", List("spank", "keg"));` |
 
@@ -1061,7 +1064,7 @@ Every command, with an example reply. *(Example replies use a middle value. Real
 </details>
 
 <details>
-<summary><b>FFY Hold</b> (1 commands)</summary>
+<summary><b>FFY Hold</b> (1 command)</summary>
 
 | Command | Range | Example reply |
 |---|---|---|
@@ -1211,7 +1214,8 @@ Every command, with an example reply. *(Example replies use a middle value. Real
 
 </details>
 
-@Bob and @Sam clashed in an epic PP duel. it's a draw at 7 inches each! |The crowd goes wild as @Bob's 100% booty steals the show! |@Bob pillaged with unmatched fury, looting 28% of the treasure! @Sam was left with scraps (20%). |@Sam broadside-shattered @Bob's hull! (45% vs 36%) - glorious victory! |@Sam shot true - @Bob drops their pistol in surrender! (99% vs 43%) |> ℹ️ `!love` appears in FFY Emotions, but it also exists as an interaction, and the interaction is the one that answers (`!love @Sam`).
+
+> ℹ️ `!love` appears in FFY Emotions, but it also exists as an interaction, and the interaction is the one that answers (`!love @Sam`).
 
 <details>
 <summary><b>FFY Interactions</b> (14 commands)</summary>
@@ -1252,11 +1256,11 @@ All interactions also work as `!hug` (yourself) and `!hug everyone`.
 | `!d12` | Roll a D12 | @Bob, you rolled a d12 and got **5**! |
 | `!randomcoinflip` | Heads or tails | @Bob, you flipped a coin and got **Heads**! |
 | `!swordfight @Sam` | Duel on swordsmanship | @Sam wins the duel! @Bob shall be swabbing decks tonight (15% vs 13%). |
-| `!pistolfight @Sam` | Duel on intimidation | |
-| `!shipbattle @Sam` | Duel on cannon skills | |
-| `!plunderraid @Sam` | Duel on plundering | |
-| `!bootybattle @Sam` | Duel on booty | |
-| `!ppduel @Sam` | Duel on PP size | |
+| `!pistolfight @Sam` | Duel on intimidation | @Sam shot true - @Bob drops their pistol in surrender! (99% vs 43%) |
+| `!shipbattle @Sam` | Duel on cannon skills | @Sam broadside-shattered @Bob's hull! (45% vs 36%) - glorious victory! |
+| `!plunderraid @Sam` | Duel on plundering | @Bob pillaged with unmatched fury, looting 28% of the treasure! @Sam was left with scraps (20%). |
+| `!bootybattle @Sam` | Duel on booty | The crowd goes wild as @Bob's 100% booty steals the show! |
+| `!ppduel @Sam` | Duel on PP size | @Bob and @Sam clashed in an epic PP duel. It's a draw at 7 inches each! |
 
 </details>
 
@@ -1374,7 +1378,7 @@ Click the **Logs** tab in Streamer.bot and look for lines starting with **`[FFY]
 | `[FFY] !snack gave no reply. No data action has lines starting Set("snack", ...)` | No data for this command. Check the first word of its lines, or whether its feature is switched off |
 | `[FFY] 'FFY Something' gave no data (does it compile?)` | That data action has an error. Open it and click Save and Compile to see it |
 | `[FFY] Two data actions use the path '...'` | Two actions share the same `DataPath`. Give your copy its own ([section 21](#21-keeping-your-commands-in-your-own-action)) |
-| `[FFY] Unknown timeZone '...'` | The time zone name in FFY Config isn't recognised, so it's using your PC's clock |
+| `[FFY] Unknown timeZone '...'` | The time zone name in FFY Config isn't recognised (e.g. `Europe/London` instead of `GMT Standard Time`), so it's using your PC's clock. Pick a name from [the list](#set-your-time-zone-optional) |
 
 ---
 
