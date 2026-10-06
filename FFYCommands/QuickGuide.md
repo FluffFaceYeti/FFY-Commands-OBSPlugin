@@ -145,33 +145,34 @@ By default, "today" follows your PC's clock. To use a different time zone, chang
 Set("timeZone", "GMT Standard Time");
 ```
 
-Some common names:
-GMT Standard Time  ((UTC+00:00) Dublin, Edinburgh, Lisbon, London)
-Romance Standard Time  ((UTC+01:00) Brussels, Copenhagen, Madrid, Paris)
-W. Europe Standard Time  ((UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna)
-Central European Standard Time  ((UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb)
-GTB Standard Time  ((UTC+02:00) Athens, Bucharest)
-FLE Standard Time  ((UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius)
-Eastern Standard Time  ((UTC-05:00) Eastern Time (US & Canada))
-Central Standard Time  ((UTC-06:00) Central Time (US & Canada))
-Mountain Standard Time  ((UTC-07:00) Mountain Time (US & Canada))
-US Mountain Standard Time  ((UTC-07:00) Arizona)
-Pacific Standard Time  ((UTC-08:00) Pacific Time (US & Canada))
-Alaskan Standard Time  ((UTC-09:00) Alaska)
-Hawaiian Standard Time  ((UTC-10:00) Hawaii)
-Atlantic Standard Time  ((UTC-04:00) Atlantic Time (Canada))
-E. South America Standard Time  ((UTC-03:00) Brasilia)
-India Standard Time  ((UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi)
-Singapore Standard Time  ((UTC+08:00) Kuala Lumpur, Singapore)
-China Standard Time  ((UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi)
-Tokyo Standard Time  ((UTC+09:00) Osaka, Sapporo, Tokyo)
-W. Australia Standard Time  ((UTC+08:00) Perth)
-Cen. Australia Standard Time  ((UTC+09:30) Adelaide)
-E. Australia Standard Time  ((UTC+10:00) Brisbane)
-AUS Eastern Standard Time  ((UTC+10:00) Canberra, Melbourne, Sydney)
-New Zealand Standard Time  ((UTC+12:00) Auckland, Wellington)
-South Africa Standard Time  ((UTC+02:00) Harare, Pretoria)
-UTC  (UTC)
+| Time zone name (copy this) | Offset | Places |
+|---|---|---|
+| `"GMT Standard Time"` | UTC+00:00 | Dublin, Edinburgh, Lisbon, London |
+| `"Romance Standard Time"` | UTC+01:00 | Brussels, Copenhagen, Madrid, Paris |
+| `"W. Europe Standard Time"` | UTC+01:00 | Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna |
+| `"Central European Standard Time"` | UTC+01:00 | Sarajevo, Skopje, Warsaw, Zagreb |
+| `"GTB Standard Time"` | UTC+02:00 | Athens, Bucharest |
+| `"FLE Standard Time"` | UTC+02:00 | Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius |
+| `"South Africa Standard Time"` | UTC+02:00 | Harare, Pretoria |
+| `"India Standard Time"` | UTC+05:30 | Chennai, Kolkata, Mumbai, New Delhi |
+| `"Singapore Standard Time"` | UTC+08:00 | Kuala Lumpur, Singapore |
+| `"China Standard Time"` | UTC+08:00 | Beijing, Chongqing, Hong Kong SAR, Urumqi |
+| `"W. Australia Standard Time"` | UTC+08:00 | Perth |
+| `"Tokyo Standard Time"` | UTC+09:00 | Osaka, Sapporo, Tokyo |
+| `"Cen. Australia Standard Time"` | UTC+09:30 | Adelaide |
+| `"E. Australia Standard Time"` | UTC+10:00 | Brisbane |
+| `"AUS Eastern Standard Time"` | UTC+10:00 | Canberra, Melbourne, Sydney |
+| `"New Zealand Standard Time"` | UTC+12:00 | Auckland, Wellington |
+| `"E. South America Standard Time"` | UTC-03:00 | Brasilia |
+| `"Atlantic Standard Time"` | UTC-04:00 | Atlantic Time (Canada) |
+| `"Eastern Standard Time"` | UTC-05:00 | Eastern Time (US & Canada) |
+| `"Central Standard Time"` | UTC-06:00 | Central Time (US & Canada) |
+| `"Mountain Standard Time"` | UTC-07:00 | Mountain Time (US & Canada) |
+| `"US Mountain Standard Time"` | UTC-07:00 | Arizona |
+| `"Pacific Standard Time"` | UTC-08:00 | Pacific Time (US & Canada) |
+| `"Alaskan Standard Time"` | UTC-09:00 | Alaska |
+| `"Hawaiian Standard Time"` | UTC-10:00 | Hawaii |
+| `"UTC"` | UTC+00:00 | Universal time (no daylight saving) |
 
 ---
 
