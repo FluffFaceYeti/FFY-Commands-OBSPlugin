@@ -1,4 +1,4 @@
-## FFY Streamer Projects
+## FFY Streamer Tools
 
 Free tools to make your stream more fun, more personal, and more you.
 
