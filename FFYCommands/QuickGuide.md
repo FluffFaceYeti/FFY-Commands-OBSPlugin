@@ -1315,9 +1315,11 @@ All interactions also work as `!hug` (yourself) and `!hug everyone`.
 
 When a viewer uses a number or list command **on themselves**, their result is saved to their info in Streamer.bot:
 
-1. Click the **Users** tab in Streamer.bot.
-2. Find the viewer.
-3. Their saved results show as **user variables**, e.g. **PP size today** = `6 inches`, **Drink of the day** = `Martini`.
+1. Click the **Global Variables** tab in Streamer.bot.
+2. Click **Persisted User Globals**.
+3. Click the platform they're on: **Twitch**, **Kick** or **YouTube**.
+4. Select their username.
+5. Their saved results are listed there, e.g. **PP size today** = `6 inches`, **Drink of the day** = `Martini`.
 
 You can use these in your own actions and overlays with Streamer.bot's user-variable sub-actions. The name is the command's `variable` line.
 
