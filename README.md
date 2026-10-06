@@ -2,7 +2,7 @@
 
 Free tools to make your stream more fun, more personal, and more you.
 
-Custom API commands, per-user commands, walk-ons and more, all built by a streamer, for streamers. Grab what you need, plug it in, and give your community something to talk about.
+Custom daily commands, per-user commands, walk-ons and more, all built by a streamer, for streamers. Grab what you need, plug it in, and give your community something to talk about.
 
 <p align="center"> <a href="https://ko-fi.com/flufffaceyeti"> <img src="https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support me on Ko-fi"> </a> </p>
 What's inside
