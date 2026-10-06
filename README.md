@@ -5,16 +5,15 @@ Free tools to make your stream more fun, more personal, and more you.
 Custom daily commands, per-user commands, walk-ons and more, all built by a streamer, for streamers. Grab what you need, plug it in, and give your community something to talk about.
 
 <p align="center"> <a href="https://ko-fi.com/flufffaceyeti"> <img src="https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support me on Ko-fi"> </a> </p>
+These tools take a lot of late nights to build, test and keep working when platforms change. If they've saved you time, made your chat laugh, or made a viewer feel special, please consider buying me a coffee. Every donation, big or small, helps me keep these tools updated and keep making new ones.
+
+Support me on Ko-fi
 
 Each folder has its own setup instructions.
 
 Free to use, powered by kindness
 
 Everything here is 100% free: no paywalls, no locked features, no catch.
-
-These tools take a lot of late nights to build, test and keep working when platforms change. If they've saved you time, made your chat laugh, or made a viewer feel special, please consider buying me a coffee. Every donation, big or small, helps me keep these tools updated and keep making new ones.
-
-Support me on Ko-fi
 
 Not able to donate? That's completely fine. You can still help by:
 
