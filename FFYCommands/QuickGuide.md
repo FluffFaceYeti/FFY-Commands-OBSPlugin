@@ -1415,4 +1415,4 @@ Only to add or remove **triggers**. Don't change its code.
 
 ---
 
-*Made by FluffFaceYeti. Enjoy! 💜*
+*Made by FluffFaceYeti. Enjoy!*
