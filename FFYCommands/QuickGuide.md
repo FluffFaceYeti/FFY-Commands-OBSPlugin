@@ -1476,4 +1476,4 @@ No. Add your own triggers to **FFY My Triggers** instead, and don't change the c
 
 ---
 
-*Made by FluffFaceYeti. Enjoy! 💜*
+*Made by FluffFaceYeti. Enjoy!*
