@@ -41,12 +41,11 @@ You don't need to know how to code. This page shows you exactly where to click.
 
 ## 1. Install it
 
-1. Open the file **`FFY-Commands-import.txt`** (double-click it, and it opens in Notepad).
-2. Press **Ctrl + A** to select everything, then **Ctrl + C** to copy it.
-3. Open **Streamer.bot**.
-4. Click **Import** in the bar at the top of the window.
-5. Click inside the big **Import String** box and press **Ctrl + V** to paste.
-6. Click the **Import** button at the bottom.
+1. Download the **`FFYCommands`** file from this page. (This is the **first install** file. Updates use a different file, see below.)
+2. Open **Streamer.bot**.
+3. Click **Import** in the bar at the top of the window.
+4. Drag and drop the file into the box.
+5. Click **Import**.
 
 Done! Everything is installed. **All the commands start switched off**, so you can pick the ones you want:
 
@@ -55,7 +54,7 @@ Done! Everything is installed. **All the commands start switched off**, so you c
 
 Then type `!beard` in your chat to test it. 🎉
 
-> **Updating to a newer version later?** Import the **update** file over the top. No need to delete anything. Your settings (FFY Config, FFY Switches), special users and interactions, **FFY My ...** actions and your commands are all kept. Changes made inside built-in actions like FFY Stats *are* replaced, so put your changes in the **FFY My** actions. The [Complete Guide, section 21](QUICKGUIDE.md#21-keeping-your-changes-safe-from-updates) explains how.
+> **Updating to a newer version later?** Download the **`FFYCommands-update`** file, and import it the same way (drag and drop it into the Import box) over the top. No need to delete anything. Your settings (FFY Config, FFY Switches), special users and interactions, **FFY My ...** actions and your commands are all kept. Changes made inside built-in actions like FFY Stats *are* replaced, so put your changes in the **FFY My** actions. The [Complete Guide, section 21](QUICKGUIDE.md#21-keeping-your-changes-safe-from-updates) explains how.
 >
 > **Before updating, make a backup (recommended):** click **Export** in the top bar of Streamer.bot, tick every action starting with **FFY**, and save the export text in a Notepad file. If anything of yours goes missing after the update, copy your lines back from it, or import the backup to restore those actions exactly as they were. [More detail](QUICKGUIDE.md#before-you-update-make-a-backup-recommended).
 
