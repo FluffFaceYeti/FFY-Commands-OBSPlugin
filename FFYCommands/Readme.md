@@ -163,15 +163,3 @@ Every count is saved in the **Global Variables** tab as `counter.crash`, `counte
 - Anything else: check the **Logs** tab for lines with **FFY Counters**.
 
 ---
-
-<details>
-<summary><b>For the developer: rebuilding the import file</b></summary>
-
-`Counters.cs` is the counter code, and `Counters-Setup.cs` switches the commands on after import. After changing either, rebuild `FFY-Counters` with:
-
-```
-node build-import.mjs
-```
-
-The commands are made automatically from the `Word(...)` lines in `Counters.cs`.
-</details>
